@@ -12,7 +12,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
 
     pairs = getPairs();
@@ -23,8 +22,6 @@ class _HomePageState extends State<HomePage> {
     selcted = true;
     Future.delayed(const Duration(seconds: 5), () {
       setState(() {
-        print("2 seconds done");
-
         visiblePairs = getQuestions();
         selcted = false;
       });
@@ -48,7 +45,9 @@ class _HomePageState extends State<HomePage> {
             ),
             Text("pontos"),
             SizedBox(
-              height: currentOrientation == Orientation.portrait ? hei * 0.1 : hei * 0.05,
+              height: currentOrientation == Orientation.portrait
+                  ? hei * 0.1
+                  : hei * 0.05,
             ),
             points != 800
                 ? GridView(
@@ -129,7 +128,6 @@ class _TileState extends State<Tile> {
           if (selectedImageAssetPath != "") {
             if (selectedImageAssetPath ==
                 pairs[widget.tileIndex].getImageAssetPath()) {
-              print("foi");
               selcted = true;
               Future.delayed(const Duration(seconds: 2), () {
                 points += 100;
@@ -143,7 +141,6 @@ class _TileState extends State<Tile> {
                 });
               });
             } else {
-              print("nao foi");
               selcted = true;
               Future.delayed(const Duration(seconds: 2), () {
                 setState(() {});
@@ -160,11 +157,10 @@ class _TileState extends State<Tile> {
             selectedImageAssetPath =
                 pairs[widget.tileIndex].getImageAssetPath();
           }
-          print("click");
           setState(() {
             pairs[widget.tileIndex].setIsSelected(true);
           });
-        } else {}
+        }
       },
       child: Container(
         margin: EdgeInsets.all(7),
