@@ -1,6 +1,19 @@
-# memori
+# memory card game with flutter
 
 A new Flutter project.
+
+# description
+
+This project is a copy of youtube memory card game tutorial.
+
+creator: Sanskar Tiwari.
+
+
+video links: 
+
+- [tutorial part 1](https://www.youtube.com/watch?v=vfF0-hZaKNM&t=2s)
+- [tutorial part 2](https://www.youtube.com/watch?v=n2dHKfMttOU)
+
 
 ## Getting Started
 
