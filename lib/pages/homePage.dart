@@ -34,11 +34,18 @@ class _HomePageState extends State<HomePage> {
     var wid = MediaQuery.of(context).size.width;
     Orientation currentOrientation = MediaQuery.of(context).orientation;
     return Scaffold(
-        body: SafeArea(
-      child: Container(
+        body: Container(
+         decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topRight,
+              end: Alignment.bottomLeft,
+              colors: [Colors.blue[600], Colors.blueGrey[400]])),
         padding: EdgeInsets.symmetric(vertical: 50, horizontal: 20),
         child: Column(
           children: <Widget>[
+            SizedBox(
+              height: hei * 0.05,
+            ),
             Text(
               "$points/800",
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
@@ -104,7 +111,8 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
-    ));
+    );
+    
   }
 }
 
