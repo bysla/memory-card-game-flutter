@@ -15,6 +15,13 @@ video links:
 - [tutorial part 2](https://www.youtube.com/watch?v=n2dHKfMttOU)
 
 
+## Some Screenshots
+![Screenshots 1](assets/telas/tela1.jpg)
+![Screenshots 2](assets/telas/tela2.jpg)
+![Screenshots 3](assets/telas/tela3.jpg)
+![Screenshots 4](assets/telas/tela4.jpg)
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
