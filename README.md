@@ -16,7 +16,7 @@ video links:
 
 
 ## Some Screenshots
-<img src="assets/telas/tela1.jpg" height="300em" alt="Screenshots 1"/><img src="assets/telas/tela2.jpg" height="300em" alt="Screenshots 2"/><img src="assets/telas/tela3.jpg" height="300em" alt="Screenshots 3"/><img src="assets/telas/tela4.jpg" height="300em" alt="Screenshots 4"/>
+<img src="assets/telas/tela1.jpg" height="300em" alt="Screenshots 1"/>&nbsp;<img src="assets/telas/tela2.jpg" height="300em" alt="Screenshots 2"/>&nbsp;<img src="assets/telas/tela3.jpg" height="300em" alt="Screenshots 3"/>&nbsp;<img src="assets/telas/tela4.jpg" height="300em" alt="Screenshots 4"/>
 
 
 ## Getting Started
