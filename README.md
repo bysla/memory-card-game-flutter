@@ -16,10 +16,10 @@ video links:
 
 
 ## Some Screenshots
-![Screenshots 1](assets/telas/tela1.jpg)
-![Screenshots 2](assets/telas/tela2.jpg)
-![Screenshots 3](assets/telas/tela3.jpg)
-![Screenshots 4](assets/telas/tela4.jpg)
+<img src="assets/telas/tela1.jpg" height="300em" alt="Screenshots 1"/>
+<img src="assets/telas/tela2.jpg" height="300em" alt="Screenshots 2"/>
+<img src="assets/telas/tela3.jpg" height="300em" alt="Screenshots 3"/>
+<img src="assets/telas/tela4.jpg" height="300em" alt="Screenshots 4"/>
 
 
 ## Getting Started
